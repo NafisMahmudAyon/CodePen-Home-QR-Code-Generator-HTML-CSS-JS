@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #262a2f;
+    background: linear-gradient(to left bottom lightgreen lightblue);
 }
 
 .container {
