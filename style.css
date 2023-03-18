@@ -69,20 +69,20 @@ body {
     border: 1px solid #d1d1d1;
 }
 
-.site {
+.footer {
     position: absolute;
-    bottom:30px;
-    right: 30px;
-    background: linear-gradient(to right, #2962AE 0%, #26ACA2 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
-  
-  .site:hover {
-    background: linear-gradient(to right, #26ACA2 0%, #2962AE 100%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-  }
+    bottom: 30px;
+    left: 50%;
+    width: 80%;
+    text-align: center;
+    transform: translate(-50%);
+    color: black;
+}
+
+.footer a {
+    text-decoration: none;
+    color: darkgreen
+}
 
 .error {
     animation: shake 0.1s linear 10;
